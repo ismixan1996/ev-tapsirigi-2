@@ -1,0 +1,45 @@
+.position-container{
+
+height: 500px;
+width: 500px;
+
+    background-color: darkcyan;
+    font-family: 'Roboto', sans-serif;
+   
+   
+   
+   
+   
+    /* overflow: visible; default olaraq bu olur  */
+/* overflow: scroll; text ucun scroll yaradir */
+/* overflow: auto; ozun her sey edir */
+/* overflow: hidden; artiq sozleri gorsenmir */
+
+
+}
+
+
+.inside-div{
+height: 300px;
+width: 300px;
+/* position: relative; saga sola asagi cekmek ve hemise parrente verilir /deyisiline  absolute verilir */
+/* /* /* position: absolute; absolut psotion relative  */
+    background-color: darkgoldenrod;
+    z-index: 100;
+    overflow: auto;
+
+
+
+
+    /* position: fixed;   body tagine nezeeren isleyir katipatiln saytinda mesaj yeri */
+    /* position: static; */
+    /* position: sticky; top 0px; navviqation ucundu naw */
+ 
+
+
+}
+.second-div{
+    background-color: red;
+    width: 15px;
+    height: 500px;
+}
